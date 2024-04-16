@@ -27,7 +27,7 @@ h2 {
 @media (max-width: 550px) {
 #hi {
 	flex-direction: column;
-	margin-bottom: -60px;
+	margin-bottom: -28px;
 }}
 
 #greeting {
@@ -52,6 +52,7 @@ h2 {
 }}
 
 #pitch {
+	font-size: 18px;
 	line-height: 1.3;
 }
 
@@ -86,11 +87,6 @@ background-repeat: repeat-x;
 	color: #bc6c25;
 }
 
-@media (max-width: 550px) {
-.tech {
-	margin-left: 20px;
-}}
-
 a {
 	color: #606c38;
 }
@@ -120,6 +116,21 @@ a {
 .pic:hover {
 	box-shadow: rgba(149,157,165,0.5) 0px 8px 24px;
 }
+
+.hproj {
+	display: flex;
+	margin-bottom: 4px;
+}
+
+@media (max-width: 550px) {
+.hproj {
+	flex-direction: column;
+}
+
+@media (min-width: 550px) {
+.hproj {
+	align-items: center;
+}}
 </style>
 <div id="hi">
 	<img src="1644558965003.jpg" style="border-radius:16px; max-height:200px">
@@ -132,6 +143,17 @@ a {
 			<a class="licon" href="https://github.com/markmendell" target="_blank"><svg width="18" height="18" viewBox="0 0 64 64" id="i-github" xmlns="http://www.w3.org/2000/svg"> <path stroke-width="0" fill="#000000" d="M32 0 C14 0 0 14 0 32 0 53 19 62 22 62 24 62 24 61 24 60 L24 55 C17 57 14 53 13 50 13 50 13 49 11 47 10 46 6 44 10 44 13 44 15 48 15 48 18 52 22 51 24 50 24 48 26 46 26 46 18 45 12 42 12 31 12 27 13 24 15 22 15 22 13 18 15 13 15 13 20 13 24 17 27 15 37 15 40 17 44 13 49 13 49 13 51 20 49 22 49 22 51 24 52 27 52 31 52 42 45 45 38 46 39 47 40 49 40 52 L40 60 C40 61 40 62 42 62 45 62 64 53 64 32 64 14 50 0 32 0 Z" /></svg></a>
 		</div>
 	</div>
+</div>
+<div style="background-color:#fffcec; border-radius:16px; box-shadow:rgba(149,157,165,0.2) 0px 8px 24px; display:flex; margin-top:32px; margin-bottom:-32px; padding:12px 24px">
+	<svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 379.51" width="16" height="16" style="flex-shrink:0; opacity:0.5"><path d="M212.27 33.98C131.02 56.52 78.14 103.65 64.99 185.67c-3.58 22.32 1.42 5.46 16.55-5.86 49.4-36.96 146.53-23.88 160.01 60.56 27.12 149.48-159.79 175.36-215.11 92.8-12.87-19.19-21.39-41.59-24.46-66.19C-11.35 159.99 43.48 64.7 139.8 19.94c17.82-8.28 36.6-14.76 56.81-19.51 10.12-2.05 17.47 3.46 20.86 12.77 2.87 7.95 3.85 16.72-5.2 20.78zm267.78 0c-81.25 22.54-134.14 69.67-147.28 151.69-3.58 22.32 1.42 5.46 16.55-5.86 49.4-36.96 146.53-23.88 160 60.56 27.13 149.48-159.78 175.36-215.1 92.8-12.87-19.19-21.39-41.59-24.46-66.19C256.43 159.99 311.25 64.7 407.58 19.94 425.4 11.66 444.17 5.18 464.39.43c10.12-2.05 17.47 3.46 20.86 12.77 2.87 7.95 3.85 16.72-5.2 20.78z"/></svg>
+	<blockquote style="font-style:italic; margin:14px">
+		Mark is an incredibly talented and efficient engineer. He has impeccable craft and can build sites at a very high bar at impressive speeds. He helped me bring my design portfolio to life, creating custom media controls, implementing unique transitions and more. What I love the most about Mark is his attention to detail. He will go the extra mile to get it perfect. He is a product designer's dream to work with!
+		<footer style="margin-left:8px; margin-top:4px">
+			-
+			<a class="licon" href="https://www.linkedin.com/in/ademler/" target="_blank">Aya Demler</a>
+		</footer>
+	</blockquote>
+	<svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 379.51" width="16" height="16" style="flex-shrink:0; opacity:0.5; transform:rotate(180deg)"><path d="M212.27 33.98C131.02 56.52 78.14 103.65 64.99 185.67c-3.58 22.32 1.42 5.46 16.55-5.86 49.4-36.96 146.53-23.88 160.01 60.56 27.12 149.48-159.79 175.36-215.11 92.8-12.87-19.19-21.39-41.59-24.46-66.19C-11.35 159.99 43.48 64.7 139.8 19.94c17.82-8.28 36.6-14.76 56.81-19.51 10.12-2.05 17.47 3.46 20.86 12.77 2.87 7.95 3.85 16.72-5.2 20.78zm267.78 0c-81.25 22.54-134.14 69.67-147.28 151.69-3.58 22.32 1.42 5.46 16.55-5.86 49.4-36.96 146.53-23.88 160 60.56 27.13 149.48-159.78 175.36-215.1 92.8-12.87-19.19-21.39-41.59-24.46-66.19C256.43 159.99 311.25 64.7 407.58 19.94 425.4 11.66 444.17 5.18 464.39.43c10.12-2.05 17.47 3.46 20.86 12.77 2.87 7.95 3.85 16.72-5.2 20.78z"/></svg>
 </div>''')
 
 Work = collections.namedtuple('Work', ['title','tech','brief','desc','image'])
@@ -245,7 +267,7 @@ works = [
 
 for w in works:
 	print(f'''<div style="margin:64px 0">
-	<div style="align-items:center; display:flex; margin-bottom:4px">
+	<div class="hproj">
 		<h2 style="margin:0">{w.title}</h2>
 		<div class="dash"></div>
 		<span class="tech">{w.tech}</span>
